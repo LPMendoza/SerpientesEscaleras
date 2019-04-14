@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/png" href="img/icono.png" />
+   <title>Serpientes y Escaleras</title>
+</head>
+
+<body>
+
+   <header>
+      <h1>Serpientes y Escaleras</h1>
+   </header>
+
+   <img src="img/tablero.png" class="imgTablero" width="420px" height="420px">
+
+   <div id="contReiniciar" class="contReiniciar">
+
+      <button id="btnReiniciar"></button>
+
+   </div>
+
+   <div id="tablero"></div>
+
+   <label id="mensaje"></label>
+
+   <div class="jugadoresCtrl">
+
+      <div class="contJugadores">
+
+         <label class="lblJugador morado">Jugador 1</label>
+         <button id="btnJugador1">Avanzar</button>
+
+      </div>
+
+      <div class="contJugadores">
+
+         <label class="lblJugador verde">Jugador 2</label>
+         <button id="btnJugador2" disabled="true">Avanzar</button>
+
+      </div>
+
+      <div class="contDado">
+
+         <img id="numDado" style="background: #e3e3e3;"src="img/1.png" width="52px">
+         
+      </div>
+
+   </div>
+   
+   <script src="Dado.js"></script>
+   <script src="Jugador.js"></script>
+   <script src="Tablero.js"></script>
+
+   <script src="main.js"></script>
+
+</body>
+
+</html>
